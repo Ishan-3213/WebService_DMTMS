@@ -224,7 +224,7 @@ public class Client {
                                     break;
                                 }
                                 String new_movie_shows =intOpr.listMovieShowsAvailability(New_movieName);
-                                if(new_movie_shows.isEmpty()){
+                                if(new_movie_shows.isEmpty() | new_movie_shows.toUpperCase().startsWith("NO")){
                                     System.out.println("Sorry there is no show available for " + New_movieName);
                                     LogObj.info("Sorry there is no show available for " + New_movieName);
                                     break;

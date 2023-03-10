@@ -34,8 +34,8 @@ public class ImplementationOperations implements InterfaceOperations {
         if(server_name.equals("ATW")){
 
             booking_hashmap = datastorage.get("AVENGER");
-            booking_hashmap.put("ATWM07032023", 10);
-            booking_hashmap.put("ATWE09032023", 10);
+            booking_hashmap.put("ATWM17032023", 10);
+            booking_hashmap.put("ATWE19032023", 10);
 
             datastorage.put("AVENGER", booking_hashmap);
 
@@ -46,7 +46,7 @@ public class ImplementationOperations implements InterfaceOperations {
             user_data.put("ATWC1234", new HashMap<String, Integer>());
 
             customer_booking_hashmap = user_data.get("ATWC1234");
-            customer_booking_hashmap.put("AVENGER-ATWM07032023", 3);
+            customer_booking_hashmap.put("AVENGER-ATWE19032023", 3);
             user_data.put("ATWC1234", customer_booking_hashmap);
 
         }else if(server_name.equals("VER")){
