@@ -1,1 +1,1 @@
-# WebService_DMTMS
+# DistributedMovieTicketBookingManagementSystem using WebService
